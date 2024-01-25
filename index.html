@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi khushi</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Set background color */
+        }
+
+        h1 {
+            position: relative;
+            font-family: 'Arial', sans-serif;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .glitter-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .glitter {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #f9f;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: glitterAnimation 2s infinite;
+        }
+
+        @keyframes glitterAnimation {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            100% {
+                transform: translateY(-200px) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="glitter-container">
+        <h1>Hi pRIYANGANA</h1>
+        <!-- Glitters -->
+        <div class="glitter" style="top: 0; left: 0;"></div>
+        <div class="glitter" style="top: 70px; left: 80px;"></div>
+        <div class="glitter" style="top: 40px; left: 180px;"></div>
+        <div class="glitter" style="top: 120px; left: 20px;"></div>
+        <div class="glitter" style="top: 80px; left: 200px;"></div>
+        <div class="glitter" style="top: 150px; left: 120px;"></div>
+        <!-- Add more glitter elements as needed -->
+    </div>
+</body>
+</html>
+
